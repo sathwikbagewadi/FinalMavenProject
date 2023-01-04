@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-03T21:48:40 EST" name="Suite" finished-at="2023-01-03T21:50:17 EST" duration-ms="96804">
+    <groups>
+    </groups>
+    <test started-at="2023-01-03T21:48:40 EST" name="Test" finished-at="2023-01-03T21:50:17 EST" duration-ms="96804">
+      <class name="testScripts.BooksLinkTest">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testScripts.BooksLinkTest@446293d]" started-at="2023-01-03T21:48:40 EST" name="setUpBrowser" finished-at="2023-01-03T21:48:44 EST" duration-ms="3878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="BooksTest1()[pri:0, instance:testScripts.BooksLinkTest@446293d]" started-at="2023-01-03T21:48:44 EST" name="BooksTest1" finished-at="2023-01-03T21:48:52 EST" duration-ms="8562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BooksTest1 -->
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testScripts.BooksLinkTest@446293d]" started-at="2023-01-03T21:48:52 EST" name="setUpBrowser" finished-at="2023-01-03T21:48:55 EST" duration-ms="2900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="BooksTest2()[pri:0, instance:testScripts.BooksLinkTest@446293d]" started-at="2023-01-03T21:48:55 EST" name="BooksTest2" finished-at="2023-01-03T21:49:09 EST" duration-ms="13267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BooksTest2 -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:testScripts.BooksLinkTest@446293d]" started-at="2023-01-03T21:49:09 EST" name="browserTearDown" finished-at="2023-01-03T21:49:09 EST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- testScripts.BooksLinkTest -->
+      <class name="testScripts.LoginTest">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testScripts.LoginTest@3232a28a]" started-at="2023-01-03T21:49:10 EST" name="setUpBrowser" finished-at="2023-01-03T21:49:13 EST" duration-ms="3004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@3232a28a]" started-at="2023-01-03T21:49:13 EST" name="testCase1" data-provider="Login" finished-at="2023-01-03T21:49:18 EST" duration-ms="5590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satwik@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testScripts.LoginTest@3232a28a]" started-at="2023-01-03T21:49:18 EST" name="setUpBrowser" finished-at="2023-01-03T21:49:21 EST" duration-ms="2769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@3232a28a]" started-at="2023-01-03T21:49:21 EST" name="testCase1" data-provider="Login" finished-at="2023-01-03T21:49:27 EST" duration-ms="5433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satwik2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PPassword123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testScripts.LoginTest@3232a28a]" started-at="2023-01-03T21:49:27 EST" name="setUpBrowser" finished-at="2023-01-03T21:49:30 EST" duration-ms="3254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@3232a28a]" started-at="2023-01-03T21:49:30 EST" name="testCase1" data-provider="Login" finished-at="2023-01-03T21:49:35 EST" duration-ms="5398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satwik3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:testScripts.LoginTest@3232a28a]" started-at="2023-01-03T21:49:35 EST" name="browserTearDown" finished-at="2023-01-03T21:49:37 EST" duration-ms="1740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- testScripts.LoginTest -->
+      <class name="testScripts.PriceFilterTest">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testScripts.PriceFilterTest@47faa49c]" started-at="2023-01-03T21:49:53 EST" name="setUpBrowser" finished-at="2023-01-03T21:49:56 EST" duration-ms="3280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="PriceFilterTest1()[pri:0, instance:testScripts.PriceFilterTest@47faa49c]" started-at="2023-01-03T21:49:56 EST" name="PriceFilterTest1" finished-at="2023-01-03T21:50:15 EST" duration-ms="19659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PriceFilterTest1 -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:testScripts.PriceFilterTest@47faa49c]" started-at="2023-01-03T21:50:15 EST" name="browserTearDown" finished-at="2023-01-03T21:50:17 EST" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- testScripts.PriceFilterTest -->
+      <class name="testScripts.RegisterTest">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testScripts.RegisterTest@73e22a3d]" started-at="2023-01-03T21:49:37 EST" name="setUpBrowser" finished-at="2023-01-03T21:49:40 EST" duration-ms="3133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="registerTestCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScripts.RegisterTest@73e22a3d]" started-at="2023-01-03T21:49:40 EST" name="registerTestCase" data-provider="Register" finished-at="2023-01-03T21:49:42 EST" duration-ms="1910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sathwik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[satwik@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestCase -->
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testScripts.RegisterTest@73e22a3d]" started-at="2023-01-03T21:49:42 EST" name="setUpBrowser" finished-at="2023-01-03T21:49:45 EST" duration-ms="2769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="registerTestCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScripts.RegisterTest@73e22a3d]" started-at="2023-01-03T21:49:45 EST" name="registerTestCase" data-provider="Register" finished-at="2023-01-03T21:49:47 EST" duration-ms="1929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sathwik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sattwik@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestCase -->
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testScripts.RegisterTest@73e22a3d]" started-at="2023-01-03T21:49:47 EST" name="setUpBrowser" finished-at="2023-01-03T21:49:50 EST" duration-ms="3267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="registerTestCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScripts.RegisterTest@73e22a3d]" started-at="2023-01-03T21:49:50 EST" name="registerTestCase" data-provider="Register" finished-at="2023-01-03T21:49:52 EST" duration-ms="2000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sathwik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[satwik@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[PPassword123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestCase -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:testScripts.RegisterTest@73e22a3d]" started-at="2023-01-03T21:49:52 EST" name="browserTearDown" finished-at="2023-01-03T21:49:53 EST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- testScripts.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
